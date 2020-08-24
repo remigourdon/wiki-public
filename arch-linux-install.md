@@ -4,7 +4,7 @@
 
 Following [this](https://www.coded-with-love.com/blog/install-arch-linux-encrypted/) for partitioning and [this](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS) for encryption.
 
-[Disk](Disk) is wiped after partitioning following [dm-crypt specific methods](https://wiki.archlinux.org/index.php/Dm-crypt/Drive_preparation).
+The disk is wiped after partitioning following [dm-crypt specific methods](https://wiki.archlinux.org/index.php/Dm-crypt/Drive_preparation).
 
 Connect to WiFi with:
 

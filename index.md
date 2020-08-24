@@ -1,43 +1,43 @@
 # System
 
-[Arch Linux install](arch-linux-install)
-[Ubuntu install](ubuntu-install)
-[VirtualBox](virtualbox)
++ [Arch Linux install](arch-linux-install.md)
++ [Ubuntu install](ubuntu-install.md)
++ [VirtualBox](virtualbox.md)
 
 # Setup
 
-[Window manager](window-manager)
-[Development environmnent](development-environment)
-[Useful applications](useful-applications)
++ [Window manager](window-manager.md)
++ [Development environmnent](development-environment.md)
++ [Useful applications](useful-applications.md)
 
 # Hardware
 
-[Raspberry Pi](raspberrypi)
-[RTL-SDR](rtlsdr)
++ [Raspberry Pi](raspberrypi.md)
++ [RTL-SDR](rtlsdr.md)
 
 # Software
 
-[Rust talks](rust-notes)
-[React App](react-app)
-[Git](git)
-[Jupyter](jupyter)
-[SSH](ssh)
-[GNU Radio](gnu-radio)
-[Buildroot](buildroot)
-[GPS Daemon](gpsd)
-[Wireshark](wireshark)
++ [Rust talks](rust-notes.md)
++ [React App](react-app.md)
++ [Git](git.md)
++ [Jupyter](jupyter.md)
++ [SSH](ssh.md)
++ [GNU Radio](gnu-radio.md)
++ [Buildroot](buildroot.md)
++ [GPS Daemon](gpsd.md)
++ [Wireshark](wireshark.md)
 
 # Data Analysis
 
-[Packet Analysis](packet-analysis)
-[Text processing](text-processing)
++ [Packet Analysis](packet-analysis.md)
++ [Text processing](text-processing.md)
 
 # Sysadmin
 
-[systemd](systemd)
-[Networking](networking)
-[Security](security)
++ [systemd](systemd.md)
++ [Networking](networking.md)
++ [Security](security.md)
 
 # Projects
 
-[Oppia](oppia)
++ [Oppia](oppia.md)

@@ -24,6 +24,6 @@ To stop capture, run `killall tcpdump`.
 
 ### WireShark
 
-Then you can use [wireshark](wireshark).
+Then you can use [wireshark](wireshark.md).
 
 Run `wireshark ~/Capture/usbmon/usblog.pcap`
