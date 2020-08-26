@@ -119,8 +119,8 @@ https://github.com/sharkdp/fd
 #### Ubuntu
 
 ```sh
-wget https://github.com/sharkdp/fd/releases/download/v7.4.0/fd-musl_7.4.0_amd64.deb
-sudo dpkg -i fd-musl_7.4.0_amd64.deb
+wget https://github.com/sharkdp/fd/releases/download/v7.5.0/fd-musl_7.5.0_amd64.deb
+sudo dpkg -i fd-musl_7.5.0_amd64.deb
 ```
 
 #### Arch Linux
@@ -208,6 +208,28 @@ sudo apt install lnav
 
 ```sh
 yay -S lnav
+```
+
+## Containerization / Virtualization
+
+### Dive (docker layers explorer)
+
+https://github.com/wagoodman/dive
+
+This is a neat tool to explore each layer, as in seeing the fiiesystem content at that layer's level.
+It's useful to optimize the images but also generally to understand how Docker images are built.
+
+#### Ubuntu
+
+```sh
+wget https://github.com/wagoodman/dive/releases/download/v0.9.2/dive_0.9.2_linux_amd64.deb
+sudo dpkg -i dive_0.9.2_linux_amd64.deb
+```
+
+#### Arch Linux
+
+```sh
+yay -S dive
 ```
 
 ## Configuration management
