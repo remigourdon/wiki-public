@@ -64,6 +64,8 @@ yay -S tmux
 
 ## Rust
 
+https://github.com/rust-lang
+
 ### Ubuntu
 
 ```sh
@@ -131,23 +133,23 @@ sudo snap install exercism
 yay -S exercism-bin
 ```
 
-### Tig (git CLI interface)
+## Tig (git CLI interface)
 
 https://github.com/jonas/tig
 
-#### Ubuntu
+### Ubuntu
 
 ```sh
 sudo apt install tig
 ```
 
-#### Arch Linux
+### Arch Linux
 
 ```sh
 yay -S tig
 ```
 
-### Quilt (manage patches in series)
+## Quilt (manage patches in series)
 
 https://linux.die.net/man/1/quilt
 
@@ -155,13 +157,13 @@ This is very useful to build patch series for Buildroot for example.
 
 A good tutorial to start is [this one](https://wiki.debian.org/UsingQuilt).
 
-#### Ubuntu
+### Ubuntu
 
 ```sh
 sudo apt install quilt
 ```
 
-#### Arch Linux
+### Arch Linux
 
 ```sh
 yay -S quilt
@@ -183,4 +185,37 @@ sudo apt install shellcheck
 
 ```sh
 yay -S shellcheck
+```
+
+## Julia
+
+https://github.com/JuliaLang/
+
+### Ubuntu
+
+Best way to get a recent version is to download the binary directly and symlink it to a directory in the `PATH`.
+
+```sh
+wget https://julialang-s3.julialang.org/bin/linux/x64/1.5/julia-1.5.1-linux-x86_64.tar.gz
+tar zxvf julia-1.5.1-linux-x86_64.tar.gz
+ln -s julia-1.5.1/bin/julia ~/.local/bin/
+```
+
+### Arch Linux
+
+```sh
+yay -S julia
+```
+
+## Pluto (Julia-based reactive notebook)
+
+https://github.com/fonsp/Pluto.jl
+
+Install the package directly in Julia and start the server:
+
+```jl
+julia> ]
+(v1.0) pkg> add Pluto
+julia> import Pluto
+julia> Pluto.run(1234) # Start server on http://localhost:1234
 ```
