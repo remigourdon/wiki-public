@@ -187,6 +187,27 @@ sudo apt install shellcheck
 yay -S shellcheck
 ```
 
+## nushell (shell and structured data processing tool)
+
+https://github.com/nushell/nushell
+
+It can be installed from source:
+
+```sh
+cargo install nu # Latest
+cargo install nu --features=stable # Stable
+```
+
+Or it can be tested with a pre-built container:
+
+```sh
+docker pull quay.io/nushell/nu # Executable only
+docker run -it quay.io/nushell/nu
+
+docker pull quay.io/nushell/nu-base # Executable and sources
+docker run -it quay.io/nushell/nu-base
+```
+
 ## Julia
 
 https://github.com/JuliaLang/

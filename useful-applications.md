@@ -423,15 +423,6 @@ sudo apt install moreutils
 yay -S moreutils
 ```
 
-### nushell (new type of shell)
-
-https://github.com/nushell/nushell
-
-```sh
-cargo install nu # Latest
-cargo install nu --features=stable # Stable
-```
-
 ### Tio (TTY terminal)
 
 https://github.com/tio/tio
