@@ -23,6 +23,7 @@ I use it with [vimwiki](https://github.com/vimwiki/vimwiki) but it really is jus
 
 ## Software
 
++ [Docker](docker)
 + [Rust talks](rust-notes.md)
 + [React App](react-app.md)
 + [Git](git.md)

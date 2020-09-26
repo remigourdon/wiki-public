@@ -33,7 +33,7 @@ vcgencmd measure_clock arm | awk -F"=" '{printf ("%0.0f",$2/1000000); }'
 
 ## Connection Sharing
 
-## Host
+### Host
 
 ```sh
 # Enable IP forwarding for all interfaces
@@ -42,7 +42,7 @@ sudo sysctl net.ipv4.ip_forward=1
 sudo iptables -t nat -A POSTROUTING -o ens1u1 -j MASQUERADE
 ```
 
-## Raspberry
+### Raspberry
 
 Add the following line to `/etc/resolv.conf` (Google's DNS):
 

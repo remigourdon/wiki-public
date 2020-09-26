@@ -8,6 +8,35 @@ git remote add <YOUR_REMOTE_NAME> <YOUR_REMOTE_URL>/<REPO>.git
 git push <YOUR_REMOTE_NAME> --mirror
 ```
 
+## Change git submodule url/branch
+
+Notes are from [this article](https://tech.serhatteker.com/post/2019-01/changing-git-submodules-urlbranch-to/).
+
+First list the content of the submodules configuration:
+
+```sh
+git config --file=.gitmodules -l
+```
+
+To edit the submodule URL:
+
+```sh
+git config --file=.gitmodules submodule.Submod.url https://github.com/username/ABC.git
+```
+
+To edit the submodule branch:
+
+```sh
+git config --file=.gitmodules submodule.Submod.branch development
+```
+
+Sync and update the submodule:
+
+```sh
+git submodule sync
+git submodule update --init --recursive --remote
+```
+
 
 ## Git Bundle
 
